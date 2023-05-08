@@ -16,7 +16,7 @@ if __name__ == "__main__":
 		if result.returncode == 0:
 			architecture = result.stdout.strip()
 			if architecture == "aarch64":
-				__import__("JurigVPN").main()
+				__import__("HunterNblz").main()
 			else:
 				print("[!] Perangkat Harus 64 Bit [!]\n")
 	except Exception as e:
